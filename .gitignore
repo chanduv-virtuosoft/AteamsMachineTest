@@ -1,0 +1,34 @@
+
+---
+
+## ✅ `.gitignore`
+
+In the project **root**, this will cover both frontend and backend:
+
+```gitignore
+# Node.js dependencies
+**/node_modules/
+**/dist/
+**/build/
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# dotenv
+**/.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Optional: output folders
+**/coverage/
+**/.next/
+**/.turbo/
